@@ -12,18 +12,12 @@ app.get('/', function (req, res) {
 app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '/article-one.html'));
 });
-
-
-
-
-//app.get('/article-one', function (req, res) {
-  //res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
-//});
+//article one is not working or not displaying because it is not created in the ui folder and  does not have html extension both of which are needed  for doing the complete application
 app.get('/article-two', function (req, res) {
-  res.send("Article two requested and will be served here");
+  res.sendFile(path.join(__dirname, 'ui', '/article-two.html'));
 });
 app.get('/article-three', function (req, res) {
-  res.send("Article three requested and will be served here");
+  res.sendFile(path.join(__dirname, 'ui', '/article-three.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {

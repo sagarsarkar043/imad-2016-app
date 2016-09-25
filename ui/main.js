@@ -8,7 +8,7 @@ console.log('Loaded!');
  
  //render the variable to the nearest correct span
      
-     counter = counter+1;
+     counter = counter + 1;
      
      var span=document.getElememybyId('counter');
      

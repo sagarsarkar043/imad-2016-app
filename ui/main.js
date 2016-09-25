@@ -1,6 +1,6 @@
 console.log('Loaded!');
 
- var button=document.getElementbyId('counter');
+ var button=document.getElementById('counter');
  
  button.onClick()= function() {
   //make a request to the counter endpoint
@@ -17,7 +17,7 @@ console.log('Loaded!');
             var counter=request.response.Text;
           
     
-     var span=document.getElememybyId('count');
+     var span=document.getElememyById('count');
      
      span.innerHTML=counter.toString();
     

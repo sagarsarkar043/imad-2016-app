@@ -17,7 +17,7 @@ console.log('Loaded!');
             var counter=request.response.Text;
           
     
-     var span=document.getElememybyId('counter');
+     var span=document.getElememybyId('count');
      
      span.innerHTML=counter.toString();
     

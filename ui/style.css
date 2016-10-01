@@ -21,4 +21,16 @@ body {
     
     width:500px;
 }
+.para
+{border-style: solid;
 
+ margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+     width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+     font-family: "Lucida Console",Lucida, Monospace;
+}

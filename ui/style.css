@@ -22,14 +22,14 @@ body {
     width:500px;
 }
 .para
-{border-style: dashed;
+{border-style: solid;
 
  margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 400px;
      width: 300px;
-    border: 25px solid green;
+    border: 25px solid black;
     padding: 25px;
     margin: 25px;
      font-family: "Lucida Console",Lucida, Monospace;

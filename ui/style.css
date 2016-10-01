@@ -23,7 +23,7 @@ body {
 }
 .para
 {border-style: solid;
-
+background-color: black;
  margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
@@ -33,4 +33,9 @@ body {
     padding: 25px;
 
      font-family: "Lucida Console",Lucida, Monospace;
+}
+
+.heading
+{
+    
 }

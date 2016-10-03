@@ -63,3 +63,16 @@ background-color:white;
     padding:20px;
     
 }
+.arti1
+{border-style: solid;
+background-color: white;
+ margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+     width: 600px;
+    border: 10px solid black;
+    padding: 25px;
+
+     font-family: "Lucida Console",Lucida, Monospace;
+}

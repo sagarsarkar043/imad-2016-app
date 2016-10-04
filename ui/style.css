@@ -18,7 +18,7 @@ body {
 
 .img-medium {
     height: 250px;
-    
+    position:relative;
     width:500px;
 }
 .para

@@ -85,7 +85,7 @@ background-color:white;
     padding:20px;
     
 }
-.arti1
+.str1
 {border-style: solid;
 background-color: white;
  margin-top: 80px;
@@ -100,7 +100,7 @@ height:500px;
     font-size:200;
 }
 
-.art1h
+.str1h
 {
 
  font-size: 200%;
@@ -125,7 +125,7 @@ height:500px;
 }
 
     
-.arti2
+.str2
 {border-style: solid;
 background-color: white;
  margin-top: 200px;
@@ -137,4 +137,23 @@ height:200px;
     padding: 25px;
 
     font-style:tahoma;
+}
+.art1
+{border-style: solid;
+background-color: white;
+ margin-top: 80px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+     width: 1000px;
+height:500px;
+    padding: 25px;
+
+    font-style:normal;
+    font-size:200;
+}
+.art1h
+{
+
+ font-size: 200%;
 }

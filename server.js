@@ -28,8 +28,8 @@ app.get('/inspi-articles', function (req, res) {
 app.get('/inspi-stories', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '/inspi-stories.html'));
 });
-app.get('/article-three', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', '/article-three.html'));
+app.get('/about', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '/about.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {

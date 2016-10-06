@@ -24,7 +24,8 @@ body {
     width:500px;
 }
 .para
-{border-style: solid;
+{
+    border-style: solid;
 background-color: white;
  margin-top: 100px;
     margin-bottom: 100px;

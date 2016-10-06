@@ -159,3 +159,24 @@ height:500px;
 
  font-size: 200%;
 }
+.about
+{
+    border-style: solid;
+
+background-color: white;
+
+ margin-top: 100px;
+
+    margin-bottom: 100px;
+
+    margin-right: 150px;
+
+    margin-left: 350px;
+
+     height:200px;
+
+     width: 600px;
+  
+    
+ font-style:normal;
+}

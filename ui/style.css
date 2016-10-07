@@ -8,7 +8,10 @@ body {
     text-align: center;
 }
 .profpic{
-    text-align:left;
+    height: 250px;
+    position:relative;
+    width:500px;
+    
 }
 .text-big {
     font-size: 100%;

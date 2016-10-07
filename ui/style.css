@@ -8,8 +8,8 @@ body {
     text-align: center;
 }
 .profpic{
-    height: 250px;
-    position:relative;
+    height: 500px;
+    position:absolute;
     width:500px;
     
 }

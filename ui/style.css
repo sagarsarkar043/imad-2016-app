@@ -7,6 +7,12 @@ body {
 .center {
     text-align: center;
 }
+.header
+{
+    border: 1px solid black;
+    margin: 100px 150px 100px 80px;
+
+}
 .profpic{
     
   margin-left:50px;

@@ -32,6 +32,10 @@ app.get('/about', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '/about.html'));
 });
 
+app.get('/inspi-quotes', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '/inspi-quotes.html'));
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });

@@ -62,19 +62,21 @@
 
 <br /><br><br>
   Comment:<br>
-  <textarea name='comment' id='comment' value="share your comments"></textarea><br />
+  <textarea name='comment' id='comment' value="share your comments"></textarea><br/>
 
-  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>'/>
 
-  <input type='submit' value='Submit' />  
-</form>
-     
-      
-      <ul>
-        
-      </ul>
-        </div>
-      </div>  
+  <button type='submit' value='Submit' onclick="myFunction()"/>
+
+
+<script>
+function myFunction() { 
+    document.getElementById("demo").innerHTML = "Thank you";
+}
+</script>
+
+    
+    
         <script type="text/javascript" src="/ui/main.js">
         </script>
     </body>

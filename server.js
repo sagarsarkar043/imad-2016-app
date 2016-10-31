@@ -22,8 +22,8 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '/index.html'));
 });
 //article one is not working or not displaying because it is not created in the ui folder and  does not have html extension both of which are needed  for doing the complete application
-app.get('/comment', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', '/comment.html'));
+app.get('/login', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '/login.html'));
 });
 
 

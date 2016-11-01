@@ -36,6 +36,11 @@ app.get('/inspi-stories', function (req, res) {
 app.get('/about', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '/about.html'));
 });
+
+app.get('/register', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '/register.html'));
+});
+
 app.get('/home', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '/index.html'));
 });
